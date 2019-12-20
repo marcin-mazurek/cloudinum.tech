@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,600");
+
+
+html {
+  color: #333;
+  font-size: 20px;
+  line-height: 1.4;
+  background: white;
+  font-family: Comfortaa, sans-serif;
+  min-width: 320px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 300;
+  letter-spacing: -4px;
+  display: flex;
+  font-size: 5rem;
+  align-items: center;
+  color: #081528;
+  background: -webkit-linear-gradient(#7d7d97, #081528);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo-image {
+  width: 120px;
+  height: 120px;
+  margin-right: 40px;
+  background-image: url(../android-chrome-192x192.png);
+  background-size: contain;
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    font-size: 4rem;
+    letter-spacing: -2px;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo {
+    font-size: 3rem;
+    letter-spacing: -1px;
+  }
+
+  .logo-image {
+    width: 64px;
+    height: 64px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    font-size: 2rem;
+  }
+}
+
+.strapline {
+  font-size: 1.7rem;
+  margin: 0 0 4rem 0;
+}
+
+@media (max-width: 1024px) {
+  .strapline {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .strapline {
+    font-size: 1rem;
+  }
+}
+
+.accent {
+  color: #ff5800;
+}
+
+.contact-block {
+  display: flex;
+}
+
+@media (max-width: 1100px) {
+  .contact-block {
+    flex-direction: column;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-block {
+    font-size: 0.9rem;
+  }
+}
+
+.contact-block p {
+  margin: 0.5rem 1rem;
+}
+
+.contact-block a {
+  color: #222;
+  text-decoration: none;
+  color: #ba4000;
+}
+
+.contact-block .icon {
+  margin-right: 0.2rem;
+}
+
+.contact-block a .icon {
+  color: #ba4000;
+}
